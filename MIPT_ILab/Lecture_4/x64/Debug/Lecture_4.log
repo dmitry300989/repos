@@ -1,0 +1,24 @@
+﻿  Lecture_4.cpp
+C:\Users\4820968\source\repos\MIPT_ILab\Lecture_4\RangeQuery.h(9,13): error C2676: бинарный "+": "T" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+          with
+          [
+              T=itt
+          ]
+C:\Users\4820968\source\repos\MIPT_ILab\Lecture_4\RangeQuery.h(31): message : выполняется компиляция ссылки на экземпляр шаблон функции "int mydistance<C,itt>(const C &,T,T)"
+          with
+          [
+              C=std::set<int,std::less<int>,std::allocator<int>>,
+              T=itt
+          ]
+C:\Users\4820968\source\repos\MIPT_ILab\Lecture_4\Lecture_4.cpp(13): message : выполняется компиляция ссылки на экземпляр шаблон функции "int range_query<std::set<int,std::less<int>,std::allocator<int>>,int>(const C &,T,T)"
+          with
+          [
+              C=std::set<int,std::less<int>,std::allocator<int>>,
+              T=int
+          ]
+C:\Users\4820968\source\repos\MIPT_ILab\Lecture_4\RangeQuery.h(11,18): error C2676: бинарный "+=": "T" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+          with
+          [
+              T=itt
+          ]
+C:\Users\4820968\source\repos\MIPT_ILab\Lecture_4\RangeQuery.h(19,25): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"

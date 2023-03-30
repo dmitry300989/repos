@@ -1,0 +1,197 @@
+################################
+########  C-Model Only  ########
+BSpecCommandDump = 0
+FrameDumpEn = 0
+EnableStatistics = 8
+ROIEnable = 0
+ROISource = 0
+ROIQPDelta0 = 0
+ROIQPDelta1 = 0
+ROIQPDelta2 = 0
+ROIQPDelta3 = 0
+ROIMapFile = ROIMap.txt
+MPEG2VDEncCtrl = 0
+FadeDetectionMethod = 1
+EnableSEI = 0
+EnableBAsRefs = 1
+EnableBpyramid = 1
+EnableBpyramidRefPicReordering = 1
+RefBframeWAEnable = 2
+
+
+######################################
+########  Testing Parameters  ########
+NumFrames = 3
+SourceWidth = 352
+SourceHeight = 288
+SourceFile = ..\mobile_352x288_30.yuv
+DstFile = stream\mobile_352x288_AVCVDEncICQTU2_golden.264
+StatsFile = mobile_352x288_AVCVDEncICQTU2.csv
+EnableExternalCost = 1
+UserCostFile = ExternalCost55181.txt
+EnableBRCDll = 1
+###ExplicitWeightsFile = ExplicitWeights.txt
+###UserScalingListFile = ScalingList.txt
+###UserPerQPRoundingFile = PerQPRounding.txt
+
+
+###########################################
+########  MSDK Exposed Parameters  ########
+ISliceQP = 30
+PSliceQP = 30
+BSliceQP = 36
+BRefSliceQP = 35
+NumP = 3
+NumB = 0
+NumSlices = 1
+ProfileIDC = 100
+LevelIDC = 51
+MaxRefIdxL0 = 1
+MaxRefIdxL1 = 0
+MaxBRefIdxL0 = 0
+PictureCodingType = 0
+
+
+################################################
+########  Application Parameters (DDI)  ########
+BRCMethod = 2
+BRCType = 0
+BitRate = 4000000
+MaxBitRate = 4000000
+VbvSzInBit = 4000000
+InitVbvFullnessInBit = 2000000
+MaxNumPakPasses = 2
+EnableMultipass = 1 
+CRFQualityFactor = 30
+FrameRateCode = 0
+QPMin = 10
+QPMax = 51
+BRCResetEnable = 0
+ResetFrameNum = 0
+ResetBitRate = 0
+ResetMaxBitRate = 0
+ResetFrameRateM = 30
+ResetFrameRateD = 1
+ResetUserMaxFrame = 0
+CabacInitIDC = 0
+ChromaFormatIDC = 1
+ChromaQpOffset = 0
+DeblockingFilterAlpha = 0
+DeblockingFilterBeta = 0
+DeblockingIDC = 0
+EntropyCodingMode = 1
+SlidingWindowRCEnable = 0
+SlidingWindowSize = 30
+SlidingWindowMaxRateRatio = 120
+
+
+#####################################
+########  Driver Parameters  ########
+TrellisQuantizationEnable = 1
+PerFrameTrellisQuantDisable = 0
+TrellisQuantizationRounding = 3
+TrellisQuantizationChromaDisable = 1
+AdaptiveRoundingEnabled = 3
+RoundingInterEnabled = 1
+RoundingInter = 2
+RoundingInterB = 0
+RoundingIntraEnabled = 1
+RoundingIntra = 5
+SliceHeight = 0
+SliceMode = 0
+SliceSizeThr = 0
+SliceMaxSize = 0
+SliceSizeThrSpecified = 0
+MaxNumSlicesCheckEnable = 1
+SceneChgDetectEn = 1
+SceneChgWidth0 = 2
+SceneChgWidth1 = 2
+SceneChgPrevIntraPctThresh = 96
+SceneChgCurIntraPctThresh = 192
+TopQPDeltaThrforAdaptive2Pass = 2
+BotQPDeltaThrforAdaptive2Pass = 1
+TopFrmSzPctThrforAdaptive2Pass = 32
+BotFrmSzPctThrforAdaptive2Pass = 24
+
+
+#################################
+########  HW Parameters  ########
+HMECoarseShape = 2
+IntraCostUpdateMethod = 3
+StaticFrameIntraCostScalingRatioP = 240
+StaticFrameZMVPercent = 80
+GOPMode = 0
+NumRefStartB = 1
+InputColorFormat = 0
+CabacZeroWordFlag = 0
+FrmHdrEncodingFrequency = 0
+AddEoStreamNAL = 0
+AddEoSquenceNAL = 0
+DisableVUIHeader = 0
+StreamInStaticRegion = 0
+ICQReEncode = 0
+AdaptiveCostAdjustEnable = 0
+BiWeight = 32
+WeightedPred = 0
+WeightedBiPred = 2
+DirectInference = 1
+DirectMode = 1
+BSkipType = 1
+EnableSkip = 3
+BSearchControl = 7
+InterSADMeasure = 2
+IntraPredictionIFrame = 0
+IntraPrediction = 0
+IntraSADMeasure = 2
+SubPelMode = 3
+MPHmeSubPelMode = 3
+EnablePAFF = 0
+PAFFThreshold = 10000
+Transform8x8Mode = 1
+MBQpCtrl = 0
+BestDistQPDelta0 = 0
+BestDistQPDelta1 = 0
+BestDistQPDelta2 = 0
+BestDistQPDelta3 = 0
+BestIntra4x4QPDelta = 0
+BestIntra8x8QPDelta = 0
+BestIntra16x16QPDelta = 0
+MbQpDeltaAdaptationDisable = 0
+FieldISelfReference = 1
+PicScalingList = 0
+SecondChromaQpOffset = 0
+SeqScalingList = 0
+ExtendedRhoDomainEn = 0
+MBHeaderCompensation = 1
+QPSelectMethodforFirstPass = 1
+AdaptiveBSSelection = 0
+RateCtrlPanicDisable = 0
+HrdConformanceCheckDisable = 0
+ScenarioInfo = 0
+LowDelayGoldenFrameBoost = 0
+MvGridCtrl = 0
+MvGridReadEn = 0
+MvGridSadAdj = 0
+PreEncBlkSizePlus1 = 0
+GammaPredSfPlus1 = 0
+ImePredOverlapThr = 3
+IMELeftPredDep = 0
+PFrameZeroCbfEn = 0
+BFrameZeroCbfEn = 0
+HMERefWindowSize = 0
+Intra4x4ModePruning = 0
+EnableAdaptiveLambdaOffset = 1
+DisPSubPartMask = 7
+DisBSubPartMask = 7
+LeftNbrPelMode = 1
+NumFMECandCheck = 4
+FbrBmeModeFlag = 0
+RdoIntraSearch = 0
+PFrameMaxNumImePred = 7
+BFrameMaxNumImePred = 7
+PFrameImePredLargeSW = 1
+BFrameImePredLargeSW = 1
+RdoChromaEnable = 0
+RdoIntraChromaSearch = 0
+MultiPassHmeEnable = 0
+CREPrefEn = 1

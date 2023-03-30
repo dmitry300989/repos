@@ -1,0 +1,12 @@
+pop
+remove 9
+discard 9
+discard 8
+remove 7
+pop
+discard 6
+remove 5
+discard 5
+discard 6
+discard 8
+remove 4

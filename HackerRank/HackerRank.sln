@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mutations", "HackerRank\Mutations.pyproj", "{703ED917-3387-41D7-8415-E9463646AE58}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Find_a_string", "Find_a_string\Find_a_string.pyproj", "{2F6D0922-47B8-4329-96D6-8C0E2B74C62B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "StringValidators", "StringValidators\StringValidators.pyproj", "{F7B1AC77-8A3A-45D7-8E55-48BFAB807B39}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Alphabet Rangoli", "Alphabet Rangoli\Alphabet Rangoli.pyproj", "{7D64789B-616F-450D-9829-B880C5C296EB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Capitalize", "Capitalize\Capitalize.pyproj", "{CC6985BB-67F4-4785-91DF-4DAC22F2A2D3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SetMethods", "SetMethods\SetMethods.pyproj", "{92E79E4E-56E2-4BA3-95CE-55579A6D7BE4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SetMutation", "SetMutation\SetMutation.pyproj", "{8B4347EA-1EF6-488A-A037-8DF24F07D653}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Test", "Test\Test.pyproj", "{4F095483-BCBF-4AD6-9DAA-B53C90A38E2A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PolarCoordinate", "PolarCoordinate\PolarCoordinate.pyproj", "{CA5FB833-AF19-4839-A603-5BD0DFF9EECA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CalcPhi", "CalcPhi\CalcPhi.pyproj", "{07B2B485-5792-4CC2-89FF-50B647D6E27B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "textAlignment", "textAlignment\textAlignment.pyproj", "{B8081C54-26A4-4D54-941F-88FC4D836399}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "itertools_combinations", "itertools_combinations\itertools_combinations.pyproj", "{5A8CB0CB-431F-4644-BC37-CA3344777910}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PillingUp", "PillingUp\PillingUp.pyproj", "{9A91420E-E5DC-4380-9E0A-94E3FD66EACE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntroductionRegex", "IntroductionRegex\IntroductionRegex.pyproj", "{D9DD7CE6-4E83-40B6-A878-48537CBE73DA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ReReGroup", "ReReGroup\ReReGroup.pyproj", "{CF2EAF3E-0F23-45F0-AD45-C9C323E927BA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ReFindallReFinditer", "ReFindallReFinditer\ReFindallReFinditer.pyproj", "{AA1FBD56-0B2A-48E7-9295-EAA8DB2D0174}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ValidateEmail", "ValidateEmail\ValidateEmail.pyproj", "{0E580972-E3E8-4FD3-B51D-78C93DF7B629}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "hex-color-code", "hex-color-code\hex-color-code.pyproj", "{F11D0A97-CE1E-45C2-81E4-BAF7E19395A3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "html-parser-part1", "html-parser-part1\html-parser-part1.pyproj", "{213234E3-B9A7-47C0-9E72-AE1D1B4C5892}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "validating-credit-card-number", "validating-credit-card-number\validating-credit-card-number.pyproj", "{CB03D9B8-1A08-4836-A833-5BCDF5D9F604}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "validating-postalcode", "validating-postalcode\validating-postalcode.pyproj", "{5D293648-1E1A-407F-A159-9050B2B97828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{703ED917-3387-41D7-8415-E9463646AE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703ED917-3387-41D7-8415-E9463646AE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6D0922-47B8-4329-96D6-8C0E2B74C62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6D0922-47B8-4329-96D6-8C0E2B74C62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B1AC77-8A3A-45D7-8E55-48BFAB807B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B1AC77-8A3A-45D7-8E55-48BFAB807B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D64789B-616F-450D-9829-B880C5C296EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D64789B-616F-450D-9829-B880C5C296EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6985BB-67F4-4785-91DF-4DAC22F2A2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6985BB-67F4-4785-91DF-4DAC22F2A2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E79E4E-56E2-4BA3-95CE-55579A6D7BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E79E4E-56E2-4BA3-95CE-55579A6D7BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4347EA-1EF6-488A-A037-8DF24F07D653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4347EA-1EF6-488A-A037-8DF24F07D653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F095483-BCBF-4AD6-9DAA-B53C90A38E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F095483-BCBF-4AD6-9DAA-B53C90A38E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5FB833-AF19-4839-A603-5BD0DFF9EECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5FB833-AF19-4839-A603-5BD0DFF9EECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B2B485-5792-4CC2-89FF-50B647D6E27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B2B485-5792-4CC2-89FF-50B647D6E27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8081C54-26A4-4D54-941F-88FC4D836399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8081C54-26A4-4D54-941F-88FC4D836399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8CB0CB-431F-4644-BC37-CA3344777910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8CB0CB-431F-4644-BC37-CA3344777910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A91420E-E5DC-4380-9E0A-94E3FD66EACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A91420E-E5DC-4380-9E0A-94E3FD66EACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DD7CE6-4E83-40B6-A878-48537CBE73DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DD7CE6-4E83-40B6-A878-48537CBE73DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2EAF3E-0F23-45F0-AD45-C9C323E927BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2EAF3E-0F23-45F0-AD45-C9C323E927BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1FBD56-0B2A-48E7-9295-EAA8DB2D0174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1FBD56-0B2A-48E7-9295-EAA8DB2D0174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E580972-E3E8-4FD3-B51D-78C93DF7B629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E580972-E3E8-4FD3-B51D-78C93DF7B629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11D0A97-CE1E-45C2-81E4-BAF7E19395A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11D0A97-CE1E-45C2-81E4-BAF7E19395A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213234E3-B9A7-47C0-9E72-AE1D1B4C5892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213234E3-B9A7-47C0-9E72-AE1D1B4C5892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB03D9B8-1A08-4836-A833-5BCDF5D9F604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB03D9B8-1A08-4836-A833-5BCDF5D9F604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D293648-1E1A-407F-A159-9050B2B97828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D293648-1E1A-407F-A159-9050B2B97828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FA876A1-791B-4BD9-B32A-7F19997CDB25}
+	EndGlobalSection
+EndGlobal

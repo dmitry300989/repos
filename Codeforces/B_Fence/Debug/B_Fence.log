@@ -1,0 +1,5 @@
+﻿  B_Fence.cpp
+C:\Users\4820968\source\repos\Codeforces\B_Fence\B_Fence.cpp(15,31): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+C:\Users\4820968\source\repos\Codeforces\B_Fence\B_Fence.cpp(21,17): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+C:\Users\4820968\source\repos\Codeforces\B_Fence\B_Fence.cpp(26,17): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+  B_Fence.vcxproj -> C:\Users\4820968\source\repos\Codeforces\Debug\B_Fence.exe

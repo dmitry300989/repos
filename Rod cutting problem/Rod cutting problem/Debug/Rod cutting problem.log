@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\4820968\source\repos\Rod cutting problem\Rod cutting problem\Source.cpp(49,12): warning C4244: =: преобразование "_Ty2" в "int", возможна потеря данных
+          with
+          [
+              _Ty2=__int64
+          ]
+  Rod cutting problem.vcxproj -> C:\Users\4820968\source\repos\Rod cutting problem\Debug\Rod cutting problem.exe

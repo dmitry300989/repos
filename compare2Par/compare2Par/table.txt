@@ -1,0 +1,171 @@
++-----+--------------------------------------------------+--------------------------------+---------------------------+
+|     | Parameter                                        | DG2AVCVDEncIPPPTU2-TQoff.par   | 0_EncodeSequence_IP.par   |
+|-----+--------------------------------------------------+--------------------------------+---------------------------|
+|   0 | ################################                 |                                | n/a                       |
+|   1 | ########  C-Model Only  ########                 |                                | n/a                       |
+|   2 | BSpecCommandDump                                 | 0                              | n/a                       |
+|   3 | FrameDumpEn                                      | 0                              | n/a                       |
+|   4 | EnableStatistics                                 | 8                              | 0                         |
+|   5 | ROISource                                        | 0                              | n/a                       |
+|   6 | ROIQPDelta0                                      | 0                              | n/a                       |
+|   7 | ROIQPDelta1                                      | 0                              | n/a                       |
+|   8 | ROIQPDelta2                                      | 0                              | n/a                       |
+|   9 | ROIQPDelta3                                      | 0                              | n/a                       |
+|  10 | ROIMapFile                                       | ROIMap.txt                     | n/a                       |
+|  11 | MPEG2VDEncCtrl                                   | 0                              | n/a                       |
+|  12 | FadeDetectionMethod                              | 1                              | n/a                       |
+|  13 | EnableSEI                                        | 0                              | 1                         |
+|  14 | EnableBAsRefs                                    | 1                              | n/a                       |
+|  15 | EnableBpyramid                                   | 1                              | 0                         |
+|  16 | EnableBpyramidRefPicReordering                   | 1                              | n/a                       |
+|  17 | RefBframeWAEnable                                | 2                              | n/a                       |
+|  18 | ######################################           |                                | n/a                       |
+|  19 | ########  Testing Parameters  ########           |                                | n/a                       |
+|  20 | NumFrames                                        | 10                             | 297                       |
+|  21 | ###ExplicitWeightsFile                           | ExplicitWeights.txt            | n/a                       |
+|  22 | ###UserScalingListFile                           | ScalingList.txt                | n/a                       |
+|  23 | ###UserPerQPRoundingFile                         | PerQPRounding.txt              | n/a                       |
+|  24 | ###########################################      |                                | n/a                       |
+|  25 | ########  MSDK Exposed Parameters  ########      |                                | n/a                       |
+|  26 | BSliceQP                                         | 26                             | n/a                       |
+|  27 | BRefSliceQP                                      | 26                             | n/a                       |
+|  28 | NumP                                             | 1000                           | 4000                      |
+|  29 | MaxBRefIdxL0                                     | 0                              | n/a                       |
+|  30 | ################################################ |                                | n/a                       |
+|  31 | ########  Application Parameters (DDI)  ######## |                                | n/a                       |
+|  32 | BitRate                                          | 959488 // MaxBitRate           | 959488                    |
+|  33 | MaxBitRate                                       | 959488 // (960000 >> 10) << 10 | 959488                    |
+|  34 | UserMaxFrame                                     | 100000000                      | 82944                     |
+|  35 | UserMaxFrame_P                                   | 100000000                      | n/a                       |
+|  36 | FrameRateCode                                    | 0                              | n/a                       |
+|  37 | BRCResetEnable                                   | 0                              | n/a                       |
+|  38 | ResetFrameNum                                    | 0                              | n/a                       |
+|  39 | ResetBitRate                                     | 0                              | n/a                       |
+|  40 | ResetMaxBitRate                                  | 0                              | n/a                       |
+|  41 | ResetFrameRateM                                  | 30                             | n/a                       |
+|  42 | ResetFrameRateD                                  | 1                              | n/a                       |
+|  43 | ResetUserMaxFrame                                | 0                              | n/a                       |
+|  44 | SlidingWindowSize                                | 30                             | 0                         |
+|  45 | SlidingWindowMaxRateRatio                        | 120                            | 0                         |
+|  46 | #####################################            |                                | n/a                       |
+|  47 | ########  Driver Parameters  ########            |                                | n/a                       |
+|  48 | TrellisQuantizationRounding                      | 3                              | 0                         |
+|  49 | AdaptiveRoundingEnabled                          | 3                              | 1                         |
+|  50 | RoundingInter                                    | 2                              | 3                         |
+|  51 | RoundingInterB                                   | 0                              | n/a                       |
+|  52 | SliceHeight                                      | 0                              | 18                        |
+|  53 | SliceSizeThr                                     | 0                              | n/a                       |
+|  54 | SliceMaxSize                                     | 0                              | n/a                       |
+|  55 | SliceSizeThrSpecified                            | 0                              | n/a                       |
+|  56 | MaxNumSlicesCheckEnable                          | 1                              | n/a                       |
+|  57 | SceneChgWidth0                                   | 2                              | 6                         |
+|  58 | SceneChgWidth1                                   | 2                              | 6                         |
+|  59 | #################################                |                                | n/a                       |
+|  60 | ########  HW Parameters  ########                |                                | n/a                       |
+|  61 | IntraCostUpdateMethod                            | 3                              | n/a                       |
+|  62 | StaticFrameIntraCostScalingRatioP                | 240                            | 0                         |
+|  63 | InputColorFormat                                 | 0                              | n/a                       |
+|  64 | FrmHdrEncodingFrequency                          | 0                              | 2                         |
+|  65 | AddEoStreamNAL                                   | 0                              | 1                         |
+|  66 | AddEoSquenceNAL                                  | 0                              | 1                         |
+|  67 | BiWeight                                         | 32                             | n/a                       |
+|  68 | WeightedBiPred                                   | 2                              | 0                         |
+|  69 | BSkipType                                        | 1                              | n/a                       |
+|  70 | BSearchControl                                   | 7                              | n/a                       |
+|  71 | MPHmeSubPelMode                                  | 3                              | n/a                       |
+|  72 | MbQpDeltaAdaptationDisable                       | 0                              | n/a                       |
+|  73 | FieldISelfReference                              | 1                              | n/a                       |
+|  74 | ExtendedRhoDomainEn                              | 0                              | 1                         |
+|  75 | AdaptiveBSSelection                              | 0                              | n/a                       |
+|  76 | RateCtrlPanicDisable                             | 0                              | n/a                       |
+|  77 | MvGridCtrl                                       | 0                              | n/a                       |
+|  78 | MvGridReadEn                                     | 0                              | n/a                       |
+|  79 | MvGridSadAdj                                     | 0                              | n/a                       |
+|  80 | PreEncBlkSizePlus1                               | 0                              | n/a                       |
+|  81 | GammaPredSfPlus1                                 | 0                              | n/a                       |
+|  82 | BFrameZeroCbfEn                                  | 0                              | n/a                       |
+|  83 | Intra4x4ModePruning                              | 0                              | n/a                       |
+|  84 | DisBSubPartMask                                  | 7                              | n/a                       |
+|  85 | FbrBmeModeFlag                                   | 0                              | n/a                       |
+|  86 | RdoIntraSearch                                   | 0                              | n/a                       |
+|  87 | BFrameMaxNumImePred                              | 7                              | n/a                       |
+|  88 | BFrameImePredLargeSW                             | 1                              | n/a                       |
+|  89 | CREPrefEn                                        | 1                              | n/a                       |
+|  90 | ########  BRC Parameters  ########               |                                | n/a                       |
+|  91 | EstimatedKeyFrameHeaderSize                      | 128                            | n/a                       |
+|  92 | EstimatedNonkeyFrameHeaderSize                   | 16                             | n/a                       |
+|  93 | EnableBRCDll                                     | 0                              | n/a                       |
+|  94 | TargetUsage                                      | n/a                            | 2                         |
+|  95 | KernelDumpEnable                                 | n/a                            | 16                        |
+|  96 | Kernel                                           | n/a                            | 1                         |
+|  97 | StartMB                                          | n/a                            | -1                        |
+|  98 | EndMB                                            | n/a                            | -1                        |
+|  99 | BoxFilter                                        | n/a                            | 1                         |
+| 100 | EnableIPCM                                       | n/a                            | 1                         |
+| 101 | EnableMVUnpacked                                 | n/a                            | 1                         |
+| 102 | EnableNewModeCost                                | n/a                            | 1                         |
+| 103 | EnableSkipBiasAdjustment                         | n/a                            | 1                         |
+| 104 | HierarchicalMEFlag                               | n/a                            | 3                         |
+| 105 | SkipChromaCBPDetection                           | n/a                            | 1                         |
+| 106 | IdrInterval                                      | n/a                            | 0                         |
+| 107 | EncodeFrameSizeTolerance                         | n/a                            | 0                         |
+| 108 | ForceIntraDC                                     | n/a                            | 0                         |
+| 109 | HMESubPelMode                                    | n/a                            | 3                         |
+| 110 | IntraDirectionBias                               | n/a                            | 1                         |
+| 111 | CostingFeature                                   | n/a                            | 3                         |
+| 112 | CostingType                                      | n/a                            | 1                         |
+| 113 | ModeCosting                                      | n/a                            | 1                         |
+| 114 | HighQPMvCostEnable                               | n/a                            | 1                         |
+| 115 | HighQPHMECostEnable                              | n/a                            | 1                         |
+| 116 | RefIDCostMode                                    | n/a                            | 0                         |
+| 117 | NumSuperSlices                                   | n/a                            | 1                         |
+| 118 | SuperSliceHeight                                 | n/a                            | 18                        |
+| 119 | FrameRateM                                       | n/a                            | 30                        |
+| 120 | FrameRateD                                       | n/a                            | 1                         |
+| 121 | ConstrainedIntraPred                             | n/a                            | 0                         |
+| 122 | MBFlatnessThreshold                              | n/a                            | 0                         |
+| 123 | MBBRCEnable                                      | n/a                            | 0                         |
+| 124 | MBRC                                             | n/a                            | 0                         |
+| 125 | AdaptiveHMEExtension                             | n/a                            | 0                         |
+| 126 | BlockBasedSkip                                   | n/a                            | 0                         |
+| 127 | VDEncPerfMode                                    | n/a                            | 0                         |
+| 128 | MBSizeEstScalingRatioINTRA                       | n/a                            | 0                         |
+| 129 | IntraMBHdrScaleFactor                            | n/a                            | 0                         |
+| 130 | MBSizeEstScalingRatioINTER                       | n/a                            | 0                         |
+| 131 | InterMBHdrScaleFactor                            | n/a                            | 0                         |
+| 132 | Intra4x4ModeMask                                 | n/a                            | 0                         |
+| 133 | Intra8x8ModeMask                                 | n/a                            | 0                         |
+| 134 | Intra16x16ModeMask                               | n/a                            | 0                         |
+| 135 | InitMBBudgetTr4x4                                | n/a                            | 0                         |
+| 136 | ForceIPCMMinQP                                   | n/a                            | 0                         |
+| 137 | IntraTr4x4Percent                                | n/a                            | 0                         |
+| 138 | EnableAdaptiveTrellisQuantization                | n/a                            | 0                         |
+| 139 | VDEncMode                                        | n/a                            | 1                         |
+| 140 | EnableNewCost                                    | n/a                            | 1                         |
+| 141 | EnableWeightPredictionDetection                  | n/a                            | 0                         |
+| 142 | UseOrigAsRef                                     | n/a                            | 0                         |
+| 143 | BiSubMbPartMask                                  | n/a                            | 0                         |
+| 144 | HME0XOffset                                      | n/a                            | 0                         |
+| 145 | HME0YOffset                                      | n/a                            | 0                         |
+| 146 | HME1XOffset                                      | n/a                            | 0                         |
+| 147 | HME1YOffset                                      | n/a                            | 0                         |
+| 148 | SuperHME                                         | n/a                            | 0                         |
+| 149 | UltraHME                                         | n/a                            | 0                         |
+| 150 | SuperCombineDist                                 | n/a                            | 0                         |
+| 151 | StreamInEnable                                   | n/a                            | 0                         |
+| 152 | StreamInL0FromNewRef                             | n/a                            | 0                         |
+| 153 | StreamInL1FromNewRef                             | n/a                            | 0                         |
+| 154 | MEMethod                                         | n/a                            | 0                         |
+| 155 | FTQBasedSkip                                     | n/a                            | 0                         |
+| 156 | BiMixDisable                                     | n/a                            | 0                         |
+| 157 | SurvivedSkipCost                                 | n/a                            | 0                         |
+| 158 | UniMixDisable                                    | n/a                            | 0                         |
+| 159 | EnableIntraCostScalingForStaticFrame             | n/a                            | 0                         |
+| 160 | VdencExtPakObjDisable                            | n/a                            | 0                         |
+| 161 | PPMVDisable                                      | n/a                            | 0                         |
+| 162 | AdaptiveMvStreamIn                               | n/a                            | 0                         |
+| 163 | LargeMvThresh                                    | n/a                            | 0                         |
+| 164 | LargeMvPctThreshold                              | n/a                            | 0                         |
+| 165 | DisPSubMbMask                                    | n/a                            | 0                         |
+| 166 | Transform8x8PDisable                             | n/a                            | 0                         |
++-----+--------------------------------------------------+--------------------------------+---------------------------+

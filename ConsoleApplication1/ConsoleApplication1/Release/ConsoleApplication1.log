@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\4820968\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(19,1): warning C4005: ABC: изменение макроопределения
+C:\Users\4820968\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(15): message : см. предыдущее определение "ABC"
+C:\Users\4820968\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(32,19): error C2589: константа: недопустимая лексема справа от "::"
+C:\Users\4820968\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(32): error C2062: тип "unknown-type" не требуется
+C:\Users\4820968\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(33,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\4820968\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(36,5): error C2181: недопустимый else без парного if
