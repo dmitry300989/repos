@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distinct Split", "Distinct 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1521A", "1521A\1521A.vcxproj", "{AEAEDA14-E96E-476F-9907-0342BB54C3FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "148A_Insomnia_cure", "148A_Insomnia_cure\148A_Insomnia_cure.vcxproj", "{0A4C8592-E37E-4356-A7FD-BD6553714D6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{AEAEDA14-E96E-476F-9907-0342BB54C3FB}.Release|x64.Build.0 = Release|x64
 		{AEAEDA14-E96E-476F-9907-0342BB54C3FB}.Release|x86.ActiveCfg = Release|Win32
 		{AEAEDA14-E96E-476F-9907-0342BB54C3FB}.Release|x86.Build.0 = Release|Win32
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Debug|x64.ActiveCfg = Debug|x64
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Debug|x64.Build.0 = Debug|x64
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Debug|x86.Build.0 = Debug|Win32
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Release|x64.ActiveCfg = Release|x64
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Release|x64.Build.0 = Release|x64
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Release|x86.ActiveCfg = Release|Win32
+		{0A4C8592-E37E-4356-A7FD-BD6553714D6F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
